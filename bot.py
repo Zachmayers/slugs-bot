@@ -25,7 +25,7 @@ async def on_message(message):
             response = f'Hello {name}'
             print(response)
 
-            await channel.message.send(response)
+            await message.channel.send(response)
 
         if content == 'generate':
             gen = 'test for now!'
