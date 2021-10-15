@@ -30,7 +30,7 @@ async def on_message(message):
         if content == 'generate':
             response = f'''
             Here's a slugline to get you started:
-            `{prompt.slugline()}`'''
+`{prompt.slugline()}`'''
 
             print(response)
             await message.channel.send(response)
