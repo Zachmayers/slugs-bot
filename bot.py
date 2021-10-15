@@ -27,10 +27,15 @@ async def on_message(message):
 
             await message.channel.send(response)
 
-        if content == 'generate':
+        if content == 'slugline' or content == 'scene':
             response = f'''
             Here's a slugline to get you started:
 `{prompt.slugline()}`'''
+
+        if content == 'character':
+            response = f'''
+            Here's a character you could write about:
+`{prompt.character()}`'''
 
             print(response)
             await message.channel.send(response)
