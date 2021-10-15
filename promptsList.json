@@ -1,7 +1,31 @@
-{'slugline':
-    [
-        'INT. ',
-        'EXT. ',
-        "INT./EXT. "
+{"slugline":
+    [{"interior":
+        [
+            "INT.",
+            "EXT.",
+            "INT./EXT."
+        ]
+    },
+    {"location":
+        [
+            "HOUSE",
+            "CAR",
+            "BAR",
+            "BARN",
+            "MANSION",
+            "MANOR",
+            "LABORATORY",
+            "PUB",
+            "SUBWAY STATION",
+            "AIRPLANE",
+            "THE OCEAN"
+        ]
+    },
+    {"time":
+        [
+            "DAY",
+            "NIGHT"
+        ]
+    }
     ]
 }

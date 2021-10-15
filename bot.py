@@ -16,10 +16,16 @@ async def on_message(message):
     
     if message.content[0] == '!':
 
-        content = message.content[1:]
+        content = lower(message.content[1:)]
         print(content)
 
         name = message.author.name
+
+        if content == 'hey' or content == 'hello' or content == 'hi':
+            response = f'Hello {name}'
+            print(response)
+
+            await channel.message.send(response)
 
         if content == 'generate':
             gen = 'test for now!'
