@@ -4,8 +4,7 @@ import os
 
 TOKEN = os.getenv('DISCORD_TOKEN')
 GUILD = os.getenv('DISCORD_GUILD')
-
-
+CHANNEL = '681609827801366591'
 
 client = discord.Client()
 
@@ -15,6 +14,11 @@ async def on_message(message):
         return
     
     if message.content[0] == '!':
+        if message.channel != CHANNEL:
+            response = f'Hello {name}, please only contact me in bot commands from now on. Thank you'
+            print(response)
+
+            await message.channel.send(response)
 
         content = message.content[1:].lower()
         print(content)
