@@ -1,1 +1,3 @@
 # slugs-bot
+
+discord bot
