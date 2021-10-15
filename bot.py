@@ -1,6 +1,7 @@
 import discord
 from consts import *
 import os
+import prompt
 
 TOKEN = os.getenv('DISCORD_TOKEN')
 GUILD = os.getenv('DISCORD_GUILD')
@@ -27,8 +28,9 @@ async def on_message(message):
             await message.channel.send(response)
 
         if content == 'generate':
-            gen = 'test for now!'
-            response = f'it works! {gen}'
+            response = f'''
+            Here's a slugline to get you started:
+            `{prompt.slugline()}`'''
 
             print(response)
             await message.channel.send(response)

@@ -1,12 +1,11 @@
 {"slugline":
-    [{"interior":
+    {"interior":
         [
             "INT.",
             "EXT.",
             "INT./EXT."
-        ]
-    },
-    {"location":
+        ],
+    "location":
         [
             "HOUSE",
             "CAR",
@@ -19,13 +18,11 @@
             "SUBWAY STATION",
             "AIRPLANE",
             "THE OCEAN"
-        ]
-    },
-    {"time":
+        ],
+    "time":
         [
             "DAY",
             "NIGHT"
         ]
     }
-    ]
 }
