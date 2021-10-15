@@ -16,7 +16,7 @@ async def on_message(message):
     
     if message.content[0] == '!':
 
-        content = lower(message.content[1:)]
+        content = lower(message.content[1:])
         print(content)
 
         name = message.author.name
