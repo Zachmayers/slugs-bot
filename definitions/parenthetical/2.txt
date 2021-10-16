@@ -1,0 +1,25 @@
+**2. Simultaneous Action**
+
+If there's an action that occurs simultaneously with, and connected to, a line of dialogue, it can be put into a parenthetical. In general, it's good practice to keep most actions in action lines, but, in some cases, a parenthetical can be used.
+
+```
+Dr. Calamity lays on the ground, finally bested. Heroman lands with a BOOM on the ground next to him. He stands and approaches Dr. Calamity, who flinches. Heroman extends a hand to help the evil Doctor up.
+
+		HEROMAN
+We have bigger things to worry
+about than each other. Are you
+ready to help me?
+
+		DR. CALAMITY
+It seems I'm left without much
+choice, right?
+
+		HEROMAN
+It's either me or the giant
+meteor. What do you pick?
+
+		DR. CALAMITY
+	(takes his hand)
+As nice as the meteor sounds,
+I suppose I'll help you.
+```

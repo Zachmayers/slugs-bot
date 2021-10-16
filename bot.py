@@ -1,7 +1,7 @@
 import discord
 from consts import *
 import os
-import prompt
+import prompt, spdefs
 
 TOKEN = os.getenv('DISCORD_TOKEN')
 GUILD = os.getenv('DISCORD_GUILD')
@@ -62,6 +62,18 @@ Scene: `{prompt.slugline()}`
             Here's a character you could write about:
 `{prompt.character()}`'''
 
+            print(response)
+            await message.channel.send(response)
+        
+        if content[:5] == 'guide':
+            if len(content) == 5:
+                response = spdefs.toc
+            else:
+                if content[6:19] == 'parenthetical':
+                    if content[-2:] == 'al':
+                        response = spdefs.parenBase
+                    else:
+                        respose = spdefs.parentheticals[str(content[-1])]
             print(response)
             await message.channel.send(response)
 

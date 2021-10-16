@@ -1,0 +1,27 @@
+**5. Language Changes**
+
+If a character switches between languages or is speaking in a different one from the last time they spoke, you can specify that with a parenthetical.
+
+```
+		BRANDON
+Hey, your name is like that one
+guy from Les Mis! Do you like
+Les Mis? What's your favorite
+line from Les Mis?
+
+		JAVERT
+	(in French)
+I hate you with all of my being
+and I hope you cry tonight and 
+don't know why.
+
+		BRANDON
+Oh, awesome! What does that
+mean?
+
+		JAVERT
+	(in English)
+Uh, it means "oooh oh boy we're
+French and we're revolting, down
+with the aristocracy hahaha."
+```

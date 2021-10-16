@@ -1,0 +1,25 @@
+**3. Specifying Who is Being Spoken To**
+
+If there's a large group of people in the scene, and you need to specify who is being spoken to by one of the characters in the scene, you can use a parenthetical.
+
+```
+		ELENA
+I don't understand why you're
+defending him! He's an asshole
+and he's obviously the one who
+left the seat up! It's his
+fault!
+
+		SHAWN
+You just want to blame him
+because it's convenient! Think 
+about it! What evidence do you 
+really have that he pissed in
+that toilet at that time on
+that night?
+
+		JORDAN
+	(to Maddi)
+Yo, this is just like that
+movie 12 ANGRY MEN.
+```

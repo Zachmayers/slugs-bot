@@ -1,0 +1,27 @@
+**Parenthetical**
+
+A parenthetical is a short description that modifies a line of dialogue in a screenplay. It is written in a dialogue block between a character name and the dialogue itself.
+
+```
+        JACOB
+Sir, we have an opportunity that
+we might never get again! I need
+you to authorize my server time.
+
+        HAYES
+    (indifferent)
+Server time is valuable, we can't
+give it to everyone who asks. The
+answer is no. Is there anything 
+else?
+```
+
+Parentheticals can be used for many types of directions in a script that directly affect a single line of dialogue. These include:
+
+1. Emotion / Delivery
+2. Simultaneous action
+3. Specifying who is being spoken to
+4. Pauses and micro-actions
+5. Language changes
+
+Type `!guide parenthetical #` to view one of these sections.

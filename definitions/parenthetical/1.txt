@@ -1,0 +1,22 @@
+**1. Emotion and Delivery**
+
+In general, you don't want to use parentheticals for this unless it is both *unclear or ambiguous* and *critical to the story*, because it is the actor's job to interpret the character and their feelings in the story through their delivery. If there is a case like this, though, a parenthetical is appropriate.
+
+```
+Nicole walks into the living room. Owen is sitting in his chair, watching a western on the television.
+
+		NICOLE
+Look at you. You made it a
+whole month. I'm proud of
+you, Owen.
+
+Owen is quiet. He doesn't turn or react.
+
+		NICOLE
+Sweetie?
+
+		OWEN
+	(slurring)
+I'm sorry, sweetie, I- I 
+messsed up.
+```
