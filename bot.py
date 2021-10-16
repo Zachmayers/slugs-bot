@@ -73,7 +73,7 @@ Scene: `{prompt.slugline()}`
                     if content[-2:] == 'al':
                         response = spdefs.parenBase
                     else:
-                        respose = spdefs.parentheticals[str(content[-1])]
+                        respose = spdefs.parentheticals[int(content[-1])]
             print(response)
             await message.channel.send(response)
 
