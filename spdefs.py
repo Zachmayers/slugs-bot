@@ -166,9 +166,9 @@ with the aristocracy hahaha."
 
 parentheticals = {
     "base": parenBase,
-    1: paren1,
-    2: paren2,
-    3: paren3,
-    4: paren4,
-    5: paren5,
+    "1": paren1,
+    "2": paren2,
+    "3": paren3,
+    "4": paren4,
+    "5": paren5,
 }

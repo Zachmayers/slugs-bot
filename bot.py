@@ -71,9 +71,9 @@ Scene: `{prompt.slugline()}`
             else:
                 if content[6:19] == 'parenthetical':
                     if content[-2:] == 'al':
-                        response = spdefs.parenBase
+                        response = spdefs.parentheticals['base']
                     else:
-                        respose = spdefs.parentheticals[int(content[-1])]
+                        respose = spdefs.parentheticals[content[-1]]
             print(response)
             await message.channel.send(response)
 
