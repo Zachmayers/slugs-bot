@@ -29,15 +29,25 @@ async def on_message(message):
         
         if content == 'prompt' or content == "i'm stuck":
 
-            embed = discord.Embed(title="Story Prompts", colour=discord.Colour(0xba9b37), description="Here are a few writing ideas you can hopefully use to kickstart some creativity. Hopefully they help!\n\n-Slugsy\n", timestamp=datetime.datetime.utcfromtimestamp(1634276062))
+            response =f'''
+            Here are some ideas for you! See if these help you out!
 
-            embed.set_image(url="https://imgur.com/m3kkq9I")
-            embed.set_footer(text="Slugsy: the TSC@UCF Writing Helper", icon_url="https://imgur.com/m3kkq9I")
+Character: `{prompt.character()}`
 
-            embed.add_field(name="Slugline", value=f"`{prompt.slugline()}`")
-            embed.add_field(name="Character", value=f"`{prompt.character()}`")
+Scene: `{prompt.slugline()}`
+            '''
 
-            await message.channel.send(content="Here's your slugline, straight from your favorite slug!", embed=embed)
+            print(response)
+            await message.channel.send(response)
+            # embed = discord.Embed(title="Story Prompts", colour=discord.Colour(0xba9b37), description="Here are a few writing ideas you can hopefully use to kickstart some creativity. Hopefully they help!\n\n-Slugsy\n", timestamp=datetime.datetime.utcfromtimestamp(1634276062))
+
+            # embed.set_image(url="https://imgur.com/m3kkq9I")
+            # embed.set_footer(text="Slugsy: the TSC@UCF Writing Helper", icon_url="https://imgur.com/m3kkq9I")
+
+            # embed.add_field(name="Slugline", value=f"`{prompt.slugline()}`")
+            # embed.add_field(name="Character", value=f"`{prompt.character()}`")
+
+            # await message.channel.send(content="Here's your slugline, straight from your favorite slug!", embed=embed)
 
         if content == 'slugline':
             response = f'''
